@@ -8,3 +8,4 @@ team add spleefSpectator Spectator
 
 # Scoreboards
 scoreboard objectives add selectedMap dummy
+scoreboard players set dummy selectedMap 1

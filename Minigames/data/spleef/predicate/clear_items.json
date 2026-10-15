@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:entity_properties",
+    "entity": "target_entity",
+    "predicate":
+    {
+        "entity_type": "minecraft:item",
+        "location": 
+        {
+            "dimension": "spleef:spleef"
+        }
+    }
+}

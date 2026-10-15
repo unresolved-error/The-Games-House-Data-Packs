@@ -1,0 +1,1 @@
+tellraw @a {"text":"The Floor is Lava","color":"gold",italic:true,extra:[{"text":" minigame has loaded successfully!","color":"green",italic:false}]}

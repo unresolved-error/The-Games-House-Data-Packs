@@ -1,0 +1,21 @@
+{
+    "values": [
+        "boat_race:load",
+        "capture_the_flag:load",
+        "floor_is_lava:load",
+        "hide_and_seek:load",
+        "hunger_games:load",
+        "infection:load",
+        "kit_pvp:load",
+        "murder_mystery:load",
+        "paintball:load",
+        "parkour:load",
+        "sky_is_falling:load",
+        "skywars:load",
+        "spleef:load",
+        "tag:load",
+        "tnt_run:load",
+
+        "hub:load"
+    ]
+}

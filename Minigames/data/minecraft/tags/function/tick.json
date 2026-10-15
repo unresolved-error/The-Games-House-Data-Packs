@@ -1,0 +1,21 @@
+{
+    "values": [
+        "boat_race:tick",
+        "capture_the_flag:tick",
+        "floor_is_lava:tick",
+        "hide_and_seek:tick",
+        "hunger_games:tick",
+        "infection:tick",
+        "kit_pvp:tick",
+        "murder_mystery:tick",
+        "paintball:tick",
+        "parkour:tick",
+        "sky_is_falling:tick",
+        "skywars:tick",
+        "spleef:tick",
+        "tag:tick",
+        "tnt_run:tick",
+        
+        "hub:tick"
+    ]
+}

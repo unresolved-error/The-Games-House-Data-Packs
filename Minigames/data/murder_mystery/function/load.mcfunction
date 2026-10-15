@@ -1,0 +1,1 @@
+tellraw @a {"text":"Murder Mystery","color":"gold",italic:true,extra:[{"text":" minigame has loaded successfully!","color":"green",italic:false}]}

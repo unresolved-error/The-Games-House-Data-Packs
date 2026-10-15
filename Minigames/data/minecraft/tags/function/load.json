@@ -15,6 +15,7 @@
         "spleef:load",
         "tag:load",
         "tnt_run:load",
+        "zombies:load",
 
         "hub:load"
     ]

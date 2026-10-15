@@ -15,6 +15,7 @@
         "spleef:tick",
         "tag:tick",
         "tnt_run:tick",
+        "zombies:tick",
         
         "hub:tick"
     ]

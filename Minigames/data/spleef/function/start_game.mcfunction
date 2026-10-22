@@ -12,6 +12,3 @@ function spleef:give_shovels
 
 # Begin countdown
 schedule function spleef:countdown/begin_countdown 1s
-
-# Set number of players
-execute as @a[predicate=spleef:spleef_player] run scoreboard players add dummy spleef_playerAmount 1

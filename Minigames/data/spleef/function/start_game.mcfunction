@@ -3,16 +3,15 @@
 
 #execute in spleef:spleef run fill 50 0 50 -50 110 -50 air
     # will be reimplemented when we have more maps, and a previous map check can be ran to see if the map needs to be cleared or not
-execute if score dummy selectedMap matches 1 run function spleef:generate_map_1
-execute if score dummy selectedMap matches 2 run function spleef:generate_map_2
-execute if score dummy selectedMap matches 3 run function spleef:generate_map_3
+execute if score dummy spleef_selectedMap matches 1 run function spleef:generate_map_1
+execute if score dummy spleef_selectedMap matches 2 run function spleef:generate_map_2
+execute if score dummy spleef_selectedMap matches 3 run function spleef:generate_map_3
 
 # Give Shovels
-clear @a[predicate=spleef:spleef_player]
 function spleef:give_shovels
-
-# Clear items
-kill @e[predicate=spleef:clear_items]
 
 # Begin countdown
 schedule function spleef:countdown/begin_countdown 1s
+
+# Set number of players
+execute as @a[predicate=spleef:spleef_player] run scoreboard players add dummy spleef_playerAmount 1

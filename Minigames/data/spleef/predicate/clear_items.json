@@ -1,11 +1,9 @@
 {
     "type": "minecraft:entity_properties",
-    "entity": "target_entity",
-    "predicate":
-    {
+    "entity": "this",
+    "predicate": {
         "entity_type": "minecraft:item",
-        "location": 
-        {
+        "location": {
             "dimension": "spleef:spleef"
         }
     }

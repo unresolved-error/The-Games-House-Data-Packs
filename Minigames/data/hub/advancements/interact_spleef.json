@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "right_click": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "entity_tags": "spleef",
+                    "type": "minecraft:armor_stand",
+                    "nbt": "{Tags:[\"spleef\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "hub:spleef_interaction"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "team": "spleefPlayer",
+        "minecraft:location": {
+            "position": {
+                "y": {
+                    "min": -64,
+                    "max": -32
+                }
+            },
+            "dimension": "spleef:spleef"
+        }
+    }
+}
